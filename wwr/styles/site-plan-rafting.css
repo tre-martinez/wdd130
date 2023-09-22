@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #FF711F   ;
   --secondary-color: #396e94 ;
-  --accent1-color: #72CDE9;
-  --accent2-color: #EEE5E9;
+  --accent1-color: #EEE5E9;
+  --accent2-color: #72CDE9;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "rock salt";
