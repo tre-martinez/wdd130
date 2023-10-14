@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Rock+Salt&display=swap');
+.home-title {
+    margin-top: 10px;
+    font-size: 2em;
+    font-family: "Rock Salt";
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
+    padding: 35px;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -19,13 +26,21 @@ main section{
 #background{
     height: 725px;
 }
+h2 {
+    margin: 0;
+}
 body{
+    padding: 0;
+    margin: 0;
+    font-size: 22px;
     background-color: #EEE5E9;
 }
 header{
     background-color: #101935;
 }
 footer{
+    margin-top: 200px;
+    padding: 25px 50px;
     color:#EEE5E9;
     background-color:#101935;
 }
@@ -34,6 +49,10 @@ nav a:hover{
     background-color: #FF711F;
 }
 .book, .join{
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 18px;
     color: #EEE5E9;
     background-color:#101935;
     text-decoration: none;
@@ -46,6 +65,8 @@ nav a:hover{
     background-color: #FF711F;
 }
 .msg{
+    padding: 35px;
+    line-height: 1.5em;
     background-color: #FF711F;
 }
 .home-title{
@@ -55,10 +76,13 @@ h4{
     color:#101935;
 }
 .msg h2{
+    font-family: "Heebo";
     color:#101935;
 }
 .msg p{
-    color:#101935;
+    padding-bottom: 15px;
+    font-size: .8em;
+    color: #101935;
 }
 footer a{
     color:#EEE5E9;
@@ -71,6 +95,7 @@ footer a:hover{
     width: 80px;
 }
 .icon{
+    padding-top: 10px;
     width: 80px;
 }
 #hero-img{
@@ -81,4 +106,19 @@ footer p a:hover{
 }
 footer p{
     font-size: 1.2em;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+    }
+.rivers-card, .camping-card, .rapids-card {
+        margin: 200px 0
+    }
+.card-img {
+        border: 10px solid #101935;
+    }
+main section img {
+    box-sizing: border-box;
 }
