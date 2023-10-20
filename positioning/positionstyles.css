@@ -35,6 +35,7 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
 }
 .red2 {
   width: 100px; 
@@ -106,7 +107,7 @@
   height: 400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .red4 {
   width: 100%; 
@@ -140,6 +141,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+  
 }
 .red5 { 
   width: 100%; 
@@ -151,6 +153,7 @@
   height: 200px; 
   background-color: green; 
   float: left;
+  clear: both;
 } 
 .yellow5 {
   width: 100%; 
