@@ -64,9 +64,17 @@ nav a:hover{
     background-color:#101935;
     text-decoration: none;
 }
-.book:hover, .join:hover{
+.join {
+    background-color:#FF711F;
+    color:whitesmoke;
+}
+.book:hover{
     color:#101935;
     background-color:#FF711F;
+}
+.join:hover {
+    color: #FF711F;
+    background-color: #101935;
 }
 #background{
     background-color: #FF711F;
@@ -85,12 +93,12 @@ h4{
 }
 .msg h2{
     font-family: "Heebo";
-    color:#FF711F;
+    color:whitesmoke;
 }
 .msg p{
     padding-bottom: 15px;
     font-size: .8em;
-    color: #FF711F;
+    color: whitesmoke;
 }
 footer a{
     color:#EEE5E9;
