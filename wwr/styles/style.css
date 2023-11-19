@@ -40,7 +40,6 @@ header{
     background-color: #101935;
     display: grid;
     grid-template-columns: 150px auto;
-    
 }
 footer{
     margin-top: 200px;
@@ -197,10 +196,98 @@ grid-template-columns: repeat(10, 1fr) ;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #101935;
 }
+
 .msg{
     grid-column: 6/10;
     grid-row: 6/7;
 }
+.destinations{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.salmon-img{
+    grid-column: 1/2;
+    grid-row:1/3;
+    box-shadow: 5px 5px 10px #101935;
+    justify-self: center;
+    align-self: center;
+    width: 65%;
+    margin-bottom: 100px;
+    margin-left:35px;
+    }
+.desolation-img{
+    grid-column: 1/2;
+    grid-row:5/7;
+    box-shadow: 5px 5px 10px #101935;
+    justify-self: center;
+    align-self: center;
+    width: 65%;
+    margin-bottom: 100px;
+    margin-left:35px;
+    }
+.arizona-img{
+    grid-column:1/2;
+    grid-row: 9/11;
+    box-shadow: 5px 5px 10px #101935;
+    justify-self: center;
+    align-self: center;
+    width: 65%;
+    margin-left:35px;
+    }
+.salmon-title{
+    text-decoration: underline;
+    font-family: "heebo";
+    grid-column:2/4;
+    grid-row:1/2;
+    text-align: center;
+    padding-right:100px;
+    padding-top:50px;
+    color:#101935;
+}
+.desolation-title{
+    text-decoration: underline;
+    font-family: "heebo";
+    grid-column: 2/4;
+    grid-row: 5/6;
+    text-align: center;
+    padding-top:50px;
+    padding-right:100px;
+    color:#101935;
+}
+.grand-title{
+
+    grid-column:2/4;
+    grid-row:9/10;
+    text-align: center;
+    padding-top:50px;
+    padding-right:100px;
+    color:#101935;
+    font-family: "heebo";
+    text-decoration: underline;
+}
+.salmon-p{
+    grid-column: 2/4;
+    grid-row:2/3;
+    padding-right:100px;
+    padding-bottom:150px;
+    color:#101935;
+}
+.desolation-p{
+    grid-column: 2/4;
+    grid-row: 6/7;
+    padding-bottom:150px;
+    padding-right:100px;
+    color:#101935;
+}
+.grand-p{
+    grid-column:2/4;
+    grid-row:10/11;
+    padding-bottom:25px;
+    padding-right:100px;
+    color:#101935;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
