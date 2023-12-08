@@ -139,17 +139,24 @@ nav{
     grid-row: 1/2;
     margin-top: 100px;
 }
-
-.home-grid{
-display:grid;
-grid-template-columns: repeat(10, 1fr) ;
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
 }
-
-#background{
-    grid-column: 1/11;
-    grid-row: 4/9;
+.main-soccer{
+    grid-column: 1/3;
+    width: 85%;
+    padding-top: 50px;
+    margin: auto;
 }
-
+.main-text{
+    grid-column: 3/5;
+    padding-top: 50px;
+    padding-right:50px;
+    text-align: justify;
+    margin: auto;
+    color: #134074;
+}
 
 
 @media screen and (max-width: 900px) {
