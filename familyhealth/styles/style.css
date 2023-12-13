@@ -29,6 +29,10 @@ main section{
 }
 h2 {
     margin: 0;
+    font-family:"Bubblegum Sans";
+}
+p {
+    font-family: "noto sans nko unjoined"
 }
 body{
     padding: 0;
@@ -218,7 +222,61 @@ main{
     padding-right: 100px;
     color:#134074;
 }
-
+.fitness-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.father-img{
+    width: 55%;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin:auto;
+    box-shadow: 5px 5px 10px #134074;
+}
+.dumbbell-img{
+    width: 55%;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin:auto;
+    box-shadow: 5px 5px 10px #134074;
+}
+.family-img{
+    width: 55%;
+    grid-row:3/4;
+    grid-column: 1/2;
+    margin:auto;
+    box-shadow: 5px 5px 10px #134074;
+}
+.hiking-img{
+    width: 55%;
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin:auto;
+    box-shadow: 5px 5px 10px #134074;
+}
+.what{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 50px;
+    color:#134074;
+}
+.type{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 50px;
+    color:#134074;
+}
+.programfit{
+    padding-left: 65px;
+    padding-right: 65px;
+    color:#134074;
+}
+.goals{
+    padding-left: 65px;
+    padding-right: 65px;
+    color:#134074;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .nutrition-grid, .image-grid {
