@@ -191,6 +191,7 @@ main{
     padding-left: 100px;
     padding-right: 50px;
     padding-top: 50px;
+    color:#134074;
 }
 .food{
     grid-row: 1/2;
@@ -199,6 +200,7 @@ main{
     padding-left: 50px;
     padding-right: 100px;
     padding-top: 50px;
+    color:#134074;
 }
 .who{
     grid-row: 2/3;
@@ -206,6 +208,7 @@ main{
     text-align: center;
     padding-left: 100px;
     padding-right: 50px;
+    color:#134074;
 }
 .program{
     grid-row: 2/3;
@@ -213,6 +216,7 @@ main{
     text-align: center;
     padding-left: 50px;
     padding-right: 100px;
+    color:#134074;
 }
 
 
